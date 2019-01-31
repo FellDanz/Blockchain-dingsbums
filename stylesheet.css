@@ -1,12 +1,78 @@
-body { 
-	margin: 10%;
-	padding 10%;
+/*Keyframes*/
+@keyframes backAni {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+@keyframes fontAni{
+    0% {color: white;}
+    100% {color: blue}
+}
+@keyframes fontAni2{
+    0% {color: rgba(42, 45, 50, 0);}
+    100% {color: rgba(42, 45, 50, 0.288);}
 }
 
-h1 { 
+ul {
+    list-style-type: none;
+    margin: auto;
+    margin-top: -98%;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #333;
+    
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover:not(.active) {
+    background-color: #111;
+}
+  
+.active {
+    background-color: #4CAF50;
+}
+
+.contentBackground{
+    border: 2px solid black;
+    display: block;
+    padding: 20px;
+    margin-block-start: 100%;
+    
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.26);
+}
+
+body {
+    background-image: url(blockchainBack.png);    
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgb(42, 45, 50);
+    margin: 10%;
+    margin-top: 50%;
+	padding: 10%;
+}
+
+h1 {
+    color: beige;
 	font-size: 64px;
 }
 
 h1,h2,p,ol {
+    color: beige;
 	font-family: 'Roboto', sans-serif;
 }
