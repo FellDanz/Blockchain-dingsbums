@@ -29,42 +29,59 @@
 			<h1 style="text-align: center">The Blockchain</h1>
 		</div>	
 
-	<div class="block1">
+		<div class="block1">
 
-		<section>
-			<h2>What is a Blockchain?</h2>
+			<section>
+				<h2>What is a Blockchain?</h2>
 
-			<p>Blockchains are permissionless distributed databases or permissionless public records of transactions in chronological order. </p>
-			<p>Blockchain technology creates a decentralized digital public record of transactions that is secure, 
-			anonymous, tamper-proof and unchangeable - a shared single source of truth.</p>
+				<p>Blockchains are permissionless distributed databases or permissionless public records of transactions in chronological order. </p>
+				<p>Blockchain technology creates a decentralized digital public record of transactions that is secure, 
+				anonymous, tamper-proof and unchangeable - a shared single source of truth.</p>
 
-			<ol>
-				<li>Currency (electronic cash systems without intermediaries)</li>
-				<li>Payment infrastructure (remittance; sending money in payment)</li>
-				<li>Digital assets (exchange of information)</li>
-				<li>Digital identity (IDs for digitally signing to reduce fraud)</li>
-				<li>Verifiable data (verify the authenticity of information or processes)</li>
-				<li>Smart contracts (software programs that execute without trusted third parties)</li>
-			</ol>
-		</section>
+				<ol>
+					<li>Currency (electronic cash systems without intermediaries)</li>
+					<li>Payment infrastructure (remittance; sending money in payment)</li>
+					<li>Digital assets (exchange of information)</li>
+					<li>Digital identity (IDs for digitally signing to reduce fraud)</li>
+					<li>Verifiable data (verify the authenticity of information or processes)</li>
+					<li>Smart contracts (software programs that execute without trusted third parties)</li>
+				</ol>
+			</section>
 
-	</div>
+		</div>
 
-	<div class="block2" id="howDoesItWork">
+		<div class="block2" id="howDoesItWork">
 
-		<section>
-			<h2>How does it work?</h2>
+			<section>
+				<h2>How does it work?</h2>
 
-			<p>The bitcoin blockchain is “decentralized,” meaning it is not controlled by one central authority.</p>
-			<p>While traditional currencies are issued by central banks, bitcoin has no central authority. Instead, the bitcoin blockchain is maintained by a network of people known as miners.</p>
-			<p>These “miners,” sometimes called “nodes” on the network, are people running purpose-built computers that are actually competing to solve complex mathematical problems in order to make a transaction go through.</p>
-			<p>For example, say lots of people are making bitcoin transactions. Each transaction originates from a wallet which has a “private key.” This is a digital signature and provides mathematical proof that the transaction has come from the owner of the wallet.</p>
-			<p>Now imagine lots of transactions are taking place across the world. These individual transactions are grouped together into a block, organized by strict cryptographic rules. The block is sent out to the bitcoin network, which are made up of people running high-powered computers. These computers compete to validate the transactions by trying to solve complex mathematical puzzles.</p>
-			<p>The winner receives an award in bitcoin.</p>
-			<p>This validated block is then added onto previous blocks creating a chain of blocks called a blockchain. </p>
-		</section>
-
-	</div>
-
+				<p>The bitcoin blockchain is “decentralized,” meaning it is not controlled by one central authority.</p>
+				<p>While traditional currencies are issued by central banks, bitcoin has no central authority. Instead, the bitcoin blockchain is maintained by a network of people known as miners.</p>
+				<p>These “miners,” sometimes called “nodes” on the network, are people running purpose-built computers that are actually competing to solve complex mathematical problems in order to make a transaction go through.</p>
+				<p>For example, say lots of people are making bitcoin transactions. Each transaction originates from a wallet which has a “private key.” This is a digital signature and provides mathematical proof that the transaction has come from the owner of the wallet.</p>
+				<p>Now imagine lots of transactions are taking place across the world. These individual transactions are grouped together into a block, organized by strict cryptographic rules. The block is sent out to the bitcoin network, which are made up of people running high-powered computers. These computers compete to validate the transactions by trying to solve complex mathematical puzzles.</p>
+				<p>The winner receives an award in bitcoin.</p>
+				<p>This validated block is then added onto previous blocks creating a chain of blocks called a blockchain. </p>
+			</section>
+		</div>
+	
+		<div class="block3" id="hyperledger">
+			<section>
+				<h2>Hyperledger</h2>
+				<p>Hyperledger is an open source collaborative effort created to advance cross-industry blockchain technologies.</p>
+				<p>It is a global collaboration, hosted by The Linux Foundation, including leaders in finance, banking, Internet of Things, supply chains, manufacturing, and Technology.</p>
+			</section>
+		</div>
+		
+		<div class="block4" id="webhash">
+			<section>
+				<h2>WebHash</h2>
+				<p>WebHash is an application to securely save and verify information of any website, at any point in time. </p>
+				<p>If instructed to, peers running the appropriate software create a hash of a website that can be  used to verify if certain information has existed on a given webpage at a certain point in time.</p>
+				<h3>How does it work?</h3>
+				<p>A user tells peers on the network to screen a site by giving them a valid url. Those then download that website, create an image of it (either similar to an iso file OR jpg) with timestamp (just like truetimestamp) and sign the result together with a specified salt (date or something) with their private key.</p>
+				<p>This ensures proof that the machine "saw" the data for as long as the key is not cracked or published</p>
+			</section>
+		</div>
 	</body>
 </html> 

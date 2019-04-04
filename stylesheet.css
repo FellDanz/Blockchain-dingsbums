@@ -11,7 +11,7 @@ body{
     background-color: rgb(42, 45, 50);
     height: 1500px;
 }
-h1,h2,p,ol{
+h1,h2,h3,p,ol{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -65,7 +65,7 @@ ol{
     position: sticky;
     top: 0;
 }
-.block1, .block2{
+.block1, .block2, .block3, .block4 {
     background-color: rgba(0, 0, 0, 0.205);
     margin: 5% 30%;
     padding: 50px;
