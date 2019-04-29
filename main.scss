@@ -1,0 +1,133 @@
+$primary: #212123;
+
+body{
+
+    background-image: url('blockBack2.png');
+    background-repeat: no-repeat;
+    background-size: 100% 111vh;
+    margin: 0;
+    position: relative;
+    z-index: -1;
+
+    #barContact{
+      text-decoration: none;
+      color: white;
+      float: right;
+      margin-right: 25rem;
+      overflow: hidden;
+      line-height: 5em;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+    }
+    //---------CONTENT------------
+    .content {
+
+      height: fit-content;
+      margin: 0 20%;
+      top: 5em;
+      padding-left: 10px;
+      border-radius: 3px;
+      position: relative;
+      border-style: none none none solid;
+
+      border-color: lighten($primary, 30%);
+      
+      h2{
+        text-align: center;
+        font-size: 40pt;
+        color: lighten($primary, 60%);
+        font-weight: 100;
+        padding-bottom: 20px;
+      }
+      ol{
+        list-style-type: disc;
+      }
+      p, li{
+        color: lighten($primary, 70%);
+        letter-spacing: .08em;
+        line-height: 1.3em
+      }
+    }
+    
+    /*----------ARROW-------------*/
+    aside{
+      height: 50px;
+      width: 50px;
+      position: sticky;
+      top: 90vh;
+      margin-right: 10px;
+      float: right;
+      border-radius: 30px;
+      background-color: darken($primary, 5%);
+      opacity: 0.3;
+
+      animation: fadeOUT 0.5s;
+    }
+
+    aside:hover{
+      animation: fadeIN 0.5s;
+      animation-fill-mode: forwards;
+    }
+
+    aside p{
+      text-align: center;
+      line-height: 2em;
+    }
+    
+    //----ARROW-ITSELF-----
+    i {
+      border: solid white;
+      border-width: 0 3px 3px 0;
+      display: inline-block;
+      padding: 5px;
+    }
+
+    //-----------------------------------------
+
+
+    section:nth-child(2n+2){
+        background-color: lighten($primary, 8%);
+    }
+    section:nth-child(2n+3){
+        background-color: $primary;
+    }
+
+    //----------------FOOTER-----------------
+    footer{
+        background-color: lighten($primary, 5%);
+        width: 100%;
+        margin: 0;
+        margin-top: -22px;
+        height: 60vh;
+
+        ul{
+            list-style-type: none;
+
+            li{
+                text-transform: uppercase;
+                float: left;
+                margin: 1rem 6rem 0 0;
+            }
+            li h2{
+                color: lighten(grey, 5%);
+                font-size: 25px;
+                letter-spacing: .08em;
+                font-weight: 100;
+                text-decoration: underline;
+            }
+            li a, p{
+                font-size: 16px;
+                text-decoration: none;
+                color: lighten(grey, 30%);
+                letter-spacing: .05em;
+                font-weight: 1000;
+                line-height: 1.5em;
+            }
+
+            #socialMedia{
+              float: right;
+              text-align: left;
+            }            
+        }
+    }
+}

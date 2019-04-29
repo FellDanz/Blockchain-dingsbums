@@ -1,4 +1,3 @@
-
 'use strict';
 var fs = require('fs');
 var md5 = require('md5');
@@ -16,12 +15,12 @@ var timestamp = Math.round((new Date()).getTime() / 1000).toString();
   await page.goto('https://www.nytimes.com/');
   await page.screenshot({path: 'full.png', fullPage: true});
   await browser.close();
-  
+
   fs.readFile('full.png', function(err, buf) {
     //console.log(md5(buf));
      hash = buf;
   });
 
   var output = timestamp.concat("_",hash);
-  
+
 })();

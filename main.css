@@ -1,0 +1,134 @@
+body {
+  background-image: url("blockBack2.png");
+  background-repeat: no-repeat;
+  background-size: 100% 111vh;
+  margin: 0;
+  position: relative;
+  z-index: -1;
+  /*----------ARROW-------------*/
+}
+
+body #barContact {
+  text-decoration: none;
+  color: white;
+  float: right;
+  margin-right: 25rem;
+  overflow: hidden;
+  line-height: 5em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+body .content {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 0 20%;
+  top: 5em;
+  padding-left: 10px;
+  border-radius: 3px;
+  position: relative;
+  border-style: none none none solid;
+  border-color: #6b6b72;
+}
+
+body .content h2 {
+  text-align: center;
+  font-size: 40pt;
+  color: #b9b9bd;
+  font-weight: 100;
+  padding-bottom: 20px;
+}
+
+body .content ol {
+  list-style-type: disc;
+}
+
+body .content p, body .content li {
+  color: #d3d3d6;
+  letter-spacing: .08em;
+  line-height: 1.3em;
+}
+
+body aside {
+  height: 50px;
+  width: 50px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 90vh;
+  margin-right: 10px;
+  float: right;
+  border-radius: 30px;
+  background-color: #151516;
+  opacity: 0.3;
+  -webkit-animation: fadeOUT 0.5s;
+          animation: fadeOUT 0.5s;
+}
+
+body aside:hover {
+  -webkit-animation: fadeIN 0.5s;
+          animation: fadeIN 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+body aside p {
+  text-align: center;
+  line-height: 2em;
+}
+
+body i {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 5px;
+}
+
+body section:nth-child(2n+2) {
+  background-color: #353538;
+}
+
+body section:nth-child(2n+3) {
+  background-color: #212123;
+}
+
+body footer {
+  background-color: #2d2d30;
+  width: 100%;
+  margin: 0;
+  margin-top: -22px;
+  height: 60vh;
+}
+
+body footer ul {
+  list-style-type: none;
+}
+
+body footer ul li {
+  text-transform: uppercase;
+  float: left;
+  margin: 1rem 6rem 0 0;
+}
+
+body footer ul li h2 {
+  color: #8d8d8d;
+  font-size: 25px;
+  letter-spacing: .08em;
+  font-weight: 100;
+  text-decoration: underline;
+}
+
+body footer ul li a, body footer ul p {
+  font-size: 16px;
+  text-decoration: none;
+  color: #cdcdcd;
+  letter-spacing: .05em;
+  font-weight: 1000;
+  line-height: 1.5em;
+}
+
+body footer ul #socialMedia {
+  float: right;
+  text-align: left;
+}
+/*# sourceMappingURL=main.css.map */
